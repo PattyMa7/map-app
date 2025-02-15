@@ -7,5 +7,11 @@
     { "name": "Tim Hortons Field", "type": "stadium", "lat": 43.2527, "lng": -79.8306 },
     { "name": "Waterfront Trail", "type": "park", "lat": 43.2702, "lng": -79.8782 },
     { "name": "West Harbour GO Station", "type": "transport", "lat": 43.2668, "lng": -79.8657 },
-    { "name": "The French", "type": "restaurant", "lat": 43.2565, "lng": -79.8708 }
+    { "name": "The French", "type": "restaurant", "lat": 43.2565, "lng": -79.8708 },
+    { "name": "Shakespeare's Steak and Seafood", "type": "restaurant", "lat": 43.25384, "lng": -79.86243},
+    { "name": "Mandarin Restaurant", "type": "restaurant", "lat": 43.25533, "lng":-79.80042},
+    { "name": "Wentworth Stairs", "type": "park", "lat": 43.24523, "lng":-79.85178},
+    { "name": "Albion Falls", "type": "park", "lat": 43.20291, "lng":-79.81837},
+    { "name": "Sam Lawrence Park", "type": "park", "lat": 43.24507, "lng":-79.86489},
+    { "name": "Mountain Brow West Park", "type": "park", "lat":43.24314, "lng":-79.85114}
 ]
