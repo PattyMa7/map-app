@@ -54,7 +54,13 @@ function showUserLocation() {
             userMarker = new google.maps.Marker({
                 position: { lat: position.coords.latitude, lng: position.coords.longitude },
                 map: map,
-                icon: "images/gps.png"
+                icon: {
+                    url: "images/gps.png", 
+                    scaledSize: new google.maps.Size(40, 40), 
+                    origin: new google.maps.Point(0, 0),
+                    anchor: new google.maps.Point(20, 20) 
+                }
+                
             });
 
             map.setCenter(userMarker.getPosition());
