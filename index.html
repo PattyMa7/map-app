@@ -21,17 +21,18 @@
 
             <!-- Controls Section -->
             <div class="col-lg-4">
-                <h4>Filter Locations</h4>
+                <h2 class="jumbotron text-center">Filter Locations</h2>
                 <div class="btn-group mb-3 w-100">
                     <button class="btn btn-primary" onclick="filterMarkers('park')">Parks</button>
                     <button class="btn btn-success" onclick="filterMarkers('museum')">Museums</button>
                     <button class="btn btn-warning" onclick="filterMarkers('restaurant')">Restaurants</button>
-                    <button class="btn btn-dark" onclick="filterMarkers('all')">Show All</button>
+                    <button class="btn btn-danger" onclick="filterMarkers('all')">Show All</button>
                 </div>
 
                 <button class="btn btn-info w-100 mb-3" onclick="showUserLocation()">📍 Show My Location</button>
 
-                <h4>Add a New Location</h4>
+                
+                <h3 class="jumbotron text-center">Add a New Location</h3>
                 <form id="add-marker-form">
                     <div class="mb-2">
                         <input type="text" id="location" class="form-control" placeholder="Enter address">
@@ -51,6 +52,10 @@
             </div>
         </div>
     </div>
+
+    <footer class="text-center mt-4">
+        <p class="small">&copy; 2025 Hamilton Places Map | Patricia Maguina 000906821</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
