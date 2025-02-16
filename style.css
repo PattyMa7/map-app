@@ -41,6 +41,8 @@ footer {
     color:rgb(38, 49, 110);
 }
 
+
+
 /* Mobile Adjustments */
 @media (max-width: 768px) {
     #map {
