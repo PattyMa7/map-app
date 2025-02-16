@@ -1,5 +1,7 @@
 # map-app
+
 # Hamilton Tourist Spots 
+
 ## Introduction
 Hamilton is known for its beautiful parks, scenic waterfalls, and diverse restaurants. This project is a web application that helps tourists and locals explore these attractions using an interactive map. The application displays 15 popular locations, categorized into parks, restaurants, and waterfalls. Users can filter locations, add new spots, find their own location, and get directions to any of the listed places.
 
@@ -13,6 +15,7 @@ The main objectives of this project are:
 4. To implement Bootstrap styling for a modern and responsive layout.
 
 ## Features
+
 ### Interactive Map with Tourist Spots
 The homepage prominently features a Google Map displaying 15 locations (parks, restaurants, and waterfalls). Each marker represents a tourist spot, and clicking it opens an info window with details such as name and address.
 ### Filtering System
@@ -46,6 +49,8 @@ The application is mobile-friendly and adjusts dynamically to different screen s
 - Geocoding API – To convert addresses into coordinates for added markers.
 - Bootstrap – For styling and making the app responsive.
 - JavaScript, HTML, CSS – For structuring and developing the application.
+
+
 
 ## Conclusion
 This project is a simple but practical web application that helps users explore Hamilton’s tourist attractions in an interactive way. By integrating mapping services, filtering, geolocation, and responsive design, the application provides a user-friendly experience.
