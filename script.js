@@ -29,7 +29,13 @@ function addMarker(place) {
     });
 
     let infoWindow = new google.maps.InfoWindow({
-        content: `<h5>${place.name}</h5><p>Category: ${place.type}</p>`
+        content: `
+        <h5>${place.name}</h5>
+        <p>Category: ${place.type}</p>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=${place.lat},${place.lng}" target="_blank">
+                🗺️ Get Directions
+            </a>
+        `
     });
 
     marker.addListener("click", () => {
@@ -76,7 +82,12 @@ function addNewMarker() {
     let geocoder = new google.maps.Geocoder();
     geocoder.geocode({ address: address }, function(results, status) {
         if (status === "OK") {
-            let newMarker = { name, type: category, lat: results[0].geometry.location.lat(), lng: results[0].geometry.location.lng() };
+            let newMarker = { 
+                name, 
+                type: category, 
+                lat: results[0].geometry.location.lat(), 
+                lng: results[0].geometry.location.lng() 
+            };
             addMarker(newMarker);
         } else {
             alert("Geocode was not successful: " + status);
