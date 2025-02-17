@@ -15,11 +15,14 @@ function fetchMarkers() {
     fetch("markers.json")
         .then(response => response.json())
         .then(data => {
+            console.log("Markers Data:", data); 
             data.forEach(place => {
                 addMarker(place);
             });
-        });
+        })
+        .catch(error => console.error("Error fetching markers:", error));
 }
+
 
 function addMarker(place) {
     let marker = new google.maps.Marker({
@@ -33,7 +36,7 @@ function addMarker(place) {
         <h5>${place.name}</h5>
         <p>Category: ${place.type}</p>
         <a href="https://www.google.com/maps/dir/?api=1&destination=${place.lat},${place.lng}" target="_blank">
-                🗺️ Get Directions
+                Get Directions
             </a>
         `
     });
@@ -55,6 +58,7 @@ function filterMarkers(type) {
 function showUserLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(position => {
+            console.log("user position:", position);
             if (userMarker) userMarker.setMap(null);
 
             userMarker = new google.maps.Marker({
@@ -70,6 +74,8 @@ function showUserLocation() {
             });
 
             map.setCenter(userMarker.getPosition());
+        }, error => {
+            console.error("geolocation error:", error);
         });
     }
 }
@@ -82,15 +88,38 @@ function addNewMarker() {
     let geocoder = new google.maps.Geocoder();
     geocoder.geocode({ address: address }, function(results, status) {
         if (status === "OK") {
-            let newMarker = { 
+            let newMarker = {
                 name, 
                 type: category, 
                 lat: results[0].geometry.location.lat(), 
-                lng: results[0].geometry.location.lng() 
+                lng: results[0].geometry.location.lng()
             };
+
             addMarker(newMarker);
+            // add to fix my bugs
+            fetch("http://localhost:3000/addMarker", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(newMarker)
+            })
+            .then(response => response.json())
+            .then(data => console.log(" Marker saved:", data))
+            .catch(error => console.error(" Error saving marker:", error));
         } else {
             alert("Geocode was not successful: " + status);
         }
     });
 }
+
+
+function fetchMarkers() {
+    fetch("http://localhost:3000/markers")
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(place => {
+                addMarker(place);
+            });
+        })
+        .catch(error => console.error("Error fetching markers:", error));
+}
+

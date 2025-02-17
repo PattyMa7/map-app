@@ -1,17 +1,236 @@
 [
-    { "name": "Gage Park", "type": "park", "lat": 43.2396, "lng": -79.8335 },
-    { "name": "Bayfront Park", "type": "park", "lat": 43.2687, "lng": -79.8767 },
-    { "name": "Royal Botanical Gardens", "type": "park", "lat": 43.2921, "lng": -79.9038 },
-    { "name": "Dundurn Castle", "type": "museum", "lat": 43.2711, "lng": -79.8847 },
-    { "name": "Art Gallery of Hamilton", "type": "museum", "lat": 43.2566, "lng": -79.8700 },
-    { "name": "Tim Hortons Field", "type": "stadium", "lat": 43.2527, "lng": -79.8306 },
-    { "name": "Waterfront Trail", "type": "park", "lat": 43.2702, "lng": -79.8782 },
-    { "name": "West Harbour GO Station", "type": "transport", "lat": 43.2668, "lng": -79.8657 },
-    { "name": "The French", "type": "restaurant", "lat": 43.2565, "lng": -79.8708 },
-    { "name": "Shakespeare's Steak and Seafood", "type": "restaurant", "lat": 43.25384, "lng": -79.86243},
-    { "name": "Mandarin Restaurant", "type": "restaurant", "lat": 43.25533, "lng":-79.80042},
-    { "name": "Wentworth Stairs", "type": "park", "lat": 43.24523, "lng":-79.85178},
-    { "name": "Albion Falls", "type": "park", "lat": 43.20291, "lng":-79.81837},
-    { "name": "Sam Lawrence Park", "type": "park", "lat": 43.24507, "lng":-79.86489},
-    { "name": "Mountain Brow West Park", "type": "park", "lat":43.24314, "lng":-79.85114}
+  {
+    "name": "Gage Park",
+    "type": "park",
+    "lat": 43.2396,
+    "lng": -79.8335
+  },
+  {
+    "name": "Bayfront Park",
+    "type": "park",
+    "lat": 43.2687,
+    "lng": -79.8767
+  },
+  {
+    "name": "Royal Botanical Gardens",
+    "type": "park",
+    "lat": 43.2921,
+    "lng": -79.9038
+  },
+  {
+    "name": "Dundurn Castle",
+    "type": "museum",
+    "lat": 43.2711,
+    "lng": -79.8847
+  },
+  {
+    "name": "Art Gallery of Hamilton",
+    "type": "museum",
+    "lat": 43.2566,
+    "lng": -79.87
+  },
+  {
+    "name": "Tim Hortons Field",
+    "type": "stadium",
+    "lat": 43.2527,
+    "lng": -79.8306
+  },
+  {
+    "name": "Waterfront Trail",
+    "type": "park",
+    "lat": 43.2702,
+    "lng": -79.8782
+  },
+  {
+    "name": "West Harbour GO Station",
+    "type": "transport",
+    "lat": 43.2668,
+    "lng": -79.8657
+  },
+  {
+    "name": "The French",
+    "type": "restaurant",
+    "lat": 43.2565,
+    "lng": -79.8708
+  },
+  {
+    "name": "Shakespeare's Steak and Seafood",
+    "type": "restaurant",
+    "lat": 43.25384,
+    "lng": -79.86243
+  },
+  {
+    "name": "Mandarin Restaurant",
+    "type": "restaurant",
+    "lat": 43.25533,
+    "lng": -79.80042
+  },
+  {
+    "name": "Wentworth Stairs",
+    "type": "park",
+    "lat": 43.24523,
+    "lng": -79.85178
+  },
+  {
+    "name": "Albion Falls",
+    "type": "park",
+    "lat": 43.20291,
+    "lng": -79.81837
+  },
+  {
+    "name": "Sam Lawrence Park",
+    "type": "park",
+    "lat": 43.24507,
+    "lng": -79.86489
+  },
+  {
+    "name": "Mountain Brow West Park",
+    "type": "park",
+    "lat": 43.24314,
+    "lng": -79.85114
+  },
+  {
+    "name": "Patricia Soledad Maguina Aranda",
+    "type": "park",
+    "lat": 43.23206039999999,
+    "lng": -79.84996989999999
+  },
+  {
+    "name": "Cliffview park",
+    "type": "park",
+    "lat": 43.24469999999999,
+    "lng": -79.90697999999999
+  },
+  {
+    "name": "Cliffview park",
+    "type": "park",
+    "lat": 43.24469999999999,
+    "lng": -79.90697999999999
+  },
+  {
+    "name": "Cliffview park",
+    "type": "park",
+    "lat": 43.24469999999999,
+    "lng": -79.90697999999999
+  },
+  {
+    "name": "Cliffview park",
+    "type": "park",
+    "lat": 43.24469999999999,
+    "lng": -79.90697999999999
+  },
+  {
+    "name": "Cliffview park",
+    "type": "park",
+    "lat": 43.24469999999999,
+    "lng": -79.90697999999999
+  },
+  {
+    "name": "Cliffview park",
+    "type": "park",
+    "lat": 43.24469999999999,
+    "lng": -79.90697999999999
+  },
+  {
+    "name": "Cliffview park",
+    "type": "park",
+    "lat": 43.24469999999999,
+    "lng": -79.90697999999999
+  },
+  {
+    "name": "Cliffview park",
+    "type": "park",
+    "lat": 43.24469999999999,
+    "lng": -79.90697999999999
+  },
+  {
+    "name": "Cliffview park",
+    "type": "park",
+    "lat": 43.24469999999999,
+    "lng": -79.90697999999999
+  },
+  {
+    "name": "Cliffview park",
+    "type": "park",
+    "lat": 43.24469999999999,
+    "lng": -79.90697999999999
+  },
+  {
+    "name": "Cliffview park",
+    "type": "park",
+    "lat": 43.24469999999999,
+    "lng": -79.90697999999999
+  },
+  {
+    "name": "Cliffview park",
+    "type": "park",
+    "lat": 43.24469999999999,
+    "lng": -79.90697999999999
+  },
+  {
+    "name": "Cliffview park",
+    "type": "park",
+    "lat": 43.24469999999999,
+    "lng": -79.90697999999999
+  },
+  {
+    "name": "Cliffview park",
+    "type": "park",
+    "lat": 43.24469999999999,
+    "lng": -79.90697999999999
+  },
+  {
+    "name": "Cliffview park",
+    "type": "park",
+    "lat": 43.24469999999999,
+    "lng": -79.90697999999999
+  },
+  {
+    "name": "hill part",
+    "type": "park",
+    "lat": 43.2277849,
+    "lng": -79.86311549999999
+  },
+  {
+    "name": "hill part",
+    "type": "park",
+    "lat": 43.2277849,
+    "lng": -79.86311549999999
+  },
+  {
+    "name": "Hill park",
+    "type": "park",
+    "lat": 43.2277849,
+    "lng": -79.86311549999999
+  },
+  {
+    "name": "Hill park",
+    "type": "park",
+    "lat": 43.2277849,
+    "lng": -79.86311549999999
+  },
+  {
+    "name": "Hill park",
+    "type": "park",
+    "lat": 43.2277849,
+    "lng": -79.86311549999999
+  },
+  {
+    "name": "Hill park",
+    "type": "park",
+    "lat": 43.2277849,
+    "lng": -79.86311549999999
+  },
+  {
+    "name": "Hill park",
+    "type": "park",
+    "lat": 43.2277849,
+    "lng": -79.86311549999999
+  },
+  {
+    "name": "Dundas Driving Park",
+    "type": "park",
+    "lat": 43.2698747,
+    "lng": -79.9524958
+  }
 ]

@@ -1,0 +1,25 @@
+{
+  "name": "map-app",
+  "version": "1.0.0",
+  "description": "Hamilton is known for its beautiful parks, scenic waterfalls, and diverse restaurants. This project is a web application that helps tourists and locals explore these attractions using an interactive map. The application displays 15 popular locations, categorized into parks, museums, and restaurants. Users can filter locations, add new spots, find their own location, and get directions to any of the listed places.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PattyMa7/map-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PattyMa7/map-app/issues"
+  },
+  "homepage": "https://github.com/PattyMa7/map-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
